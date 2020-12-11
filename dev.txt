@@ -1,0 +1,29 @@
+This is a todo app influence by pmarca's blog about productivity.
+Feature:
+1. User login with social login. There will be no password login.
+2. User can add task, remove task, and move task.
+3. data will be store in database.
+
+Stack:
+Front-end: React and Style Component.
+Back-end: NodeJS, Express, MongoDB.
+
+Why not just use Firebase?
+A: Firebase is a good quick and easy way to implement this app. I decide to develop a real 
+back-end just for learning purpose.
+
+Stack in detail:
+Front-end: React with create-react-app, Style Component, and axios for client-server communication.
+Back-end: Express for server, MongoDB for database, PassportJS for social login.
+
+Implement process:
+the front-end will be implement first with hard coded data
+for testing purpose.
+The backend will be implement later with authentication first, then
+database the the final product will be host with heroku.
+
+Task:
+create server that listen on 3000: Done
+connect to DB : done
+
+Create fake data and get from server
